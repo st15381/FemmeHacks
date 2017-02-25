@@ -1,10 +1,18 @@
-h1 {
-	color: 223, 62, 27;
-	font-size: 50px;
-	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
-
+body {
+	background-color: #1e1e15;
 }
-
+h1 {
+	color: #e6005c;
+	font-size: 75px;
+	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
+}
+h3 {
+	color: #e6005c;
+}
+/*dark pink: #e6005c
+green: #00e600;
+teal: #00e6e6 ;
+*/
 .hidden {
 	visibility: hidden;
 	display: none;
@@ -16,6 +24,7 @@ h1 {
 }
 #home {
 	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
+
 }
 #info1{
 	width:50;
@@ -53,5 +62,5 @@ h1 {
 }
 
 .menu a {
-	color: pink;
+	color: #00e6e6;
 }
