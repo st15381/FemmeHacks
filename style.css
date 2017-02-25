@@ -1,0 +1,50 @@
+h1 {
+	color: 223, 62, 27;
+	font-size: 50px;
+	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
+
+}
+
+.hidden {
+	visibility: hidden;
+	display: none;
+}
+
+.visible {
+	visibility: visible;
+	display: block;
+}
+#home {
+	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
+}
+#science {
+	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
+}
+#tech {
+	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
+}
+#eng {
+	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
+}
+#math {
+	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
+}
+#now {
+	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
+}
+
+.menu {
+	list-style: none;
+	float: right;
+	font-family: "Lucida Sans Unicode";
+}
+
+.menu li {
+	display: inline;
+	border: none;
+	margin: 10px;
+}
+
+.menu a {
+	color: pink;
+}
