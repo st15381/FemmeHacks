@@ -6,8 +6,21 @@ h1 {
 	font-size: 75px;
 	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
 }
+h2 {
+	color: #00e6e6;
+	font-size: 45px;
+}
 h3 {
 	color: #e6005c;
+}
+h4 {
+	color: #00e600;
+}
+p {
+	color: white;
+}
+ul {
+	color: white;
 }
 /*dark pink: #e6005c
 green: #00e600;
@@ -24,14 +37,14 @@ teal: #00e6e6 ;
 }
 #home {
 	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
-
 }
 #info1{
 	width:50;
+	length: 110;
 }
 #info2{
-	width:50
-	length:110
+	width:50;
+	length:110;
 }
 #science {
 	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
@@ -45,7 +58,7 @@ teal: #00e6e6 ;
 #math {
 	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
 }
-#now {
+#now_what {
 	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
 }
 
