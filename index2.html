@@ -10,23 +10,75 @@
 	<body>
 	<script type="text/javascript">
 		
-	function makevisible() {
-		alert("test");
+	function makeHomeVisible() {
 		document.getElementById("home").className = "visible";
+
+		document.getElementById("science").className = "hidden";
+		document.getElementById("tech").className = "hidden";
+		document.getElementById("eng").className = "hidden";
+		document.getElementById("math").className = "hidden";
+		document.getElementById("now_what").className = "hidden";
 	}
+	function makeScienceVisible() {
+		document.getElementById("science").className = "visible";
+
+		document.getElementById("home").className = "hidden";
+		document.getElementById("tech").className = "hidden";
+		document.getElementById("eng").className = "hidden";
+		document.getElementById("math").className = "hidden";
+		document.getElementById("now_what").className = "hidden";
+	}
+	function makeTechVisible() {
+		document.getElementById("tech").className = "visible";
+
+		document.getElementById("home").className = "hidden";
+		document.getElementById("science").className = "hidden";
+		document.getElementById("eng").className = "hidden";
+		document.getElementById("math").className = "hidden";
+		document.getElementById("now_what").className = "hidden";
+	}
+	function makeEngVisible() {
+		document.getElementById("eng").className = "visible";
+
+		document.getElementById("home").className = "hidden";
+		document.getElementById("science").className = "hidden";
+		document.getElementById("tech").className = "hidden";
+		document.getElementById("math").className = "hidden";
+		document.getElementById("now_what").className = "hidden";
+	}
+	function makeMathVisible() {
+		document.getElementById("math").className = "visible";
+		
+		document.getElementById("home").className = "hidden";
+		document.getElementById("science").className = "hidden";
+		document.getElementById("tech").className = "hidden";
+		document.getElementById("eng").className = "hidden";
+		document.getElementById("now_what").className = "hidden";
+	}
+	function makeNowVisible() {
+		document.getElementById("now_what").className = "visible";
+
+		document.getElementById("home").className = "hidden";
+		document.getElementById("science").className = "hidden";
+		document.getElementById("tech").className = "hidden";
+		document.getElementById("eng").className = "hidden";
+		document.getElementById("math").className = "hidden";
+	}
+
 
 	</script>
 
 <ul class="menu">
-	<li><a href="#home" onClick="makevisible()">Home</a></li>
-	<li><a href=".science">Science</a></li>
-	<li><a href=".technology">Technology</a></li>
-	<li><a href=".engineering">Engineering</a></li>
-	<li><a href=".mathematics">Mathematics</a></li>
-	<li><a href=".now_what">Now What?</a></li>
+	<li><a href="#home" onClick="makeHomeVisible()">Home</a></li>
+	<li><a href="#science" onClick="makeScienceVisible()">Science</a></li>
+	<li><a href="#technology" onClick= "makeTechVisible()">Technology</a></li>
+	<li><a href="#engineering" onClick= "makeEngVisible
+	">Engineering</a></li>
+	<li><a href="#mathematics" onClick= "makeMathVisible">Mathematics</a></li>
+	<li><a href="#now_what" onClick= "makeNowVisible">Now What?</a></li>
 </ul>
 
-<div class="hidden" id="home">
+<div class="visible" id="home">
 	<h1>Femme in STEM</h1>
 	<h3>Reality of Women in STEM</h3>
 	<br>
@@ -39,31 +91,31 @@
 	<p>INFOGRAPHIC OF WOMEN OF COLOR IN STEM</p>
 </div>
 
-<div class="science">
+<div class="hidden" id="science">
 	<H1>Science.</H1>
 	<p>DESCRIPTION OF SCIENCE</p>
 	<p>DESCRIPTION OF COMMON JOBS IN THE SCIENCE FIELD</p>
 	<p>INFOGRAPHIC OF WOMEN AND WOC IN SCIENCE</p>
 	</div>
-<div class="tech">Technology
+<div class="hidden" id="tech">Technology
 	<h1>Technology.</h1>
 	<p>DESCRIPTION OF TECH</p>
 	<p>DESCRIPTION OF COMMON JOBS IN THE TECH FIELD</p>
 	<p>INFOGRAPHIC OF WOMEN AND WOC IN TECH</p>
 	</div>
-<div class="eng">Engineering
+<div class="hidden" id="eng">Engineering
 	<h1>Engineering.</h1>
 	<p>DESCRIPTION OF ENG</p>
 	<p>DESCRIPTION OF COMMON JOBS IN THE ENG FIELD</p>
 	<p>INFOGRAPHIC OF WOMEN AND WOC IN ENG</p>
 	</div>
-<div class="math">Mathematics
+<div class="hidden" id="math">Mathematics
 	<h1>Mathematics.</h1>
 	<p>DESCRIPTION OF MATH</p>
 	<p>DESCRIPTION OF COMMON JOBS IN THE MATH FIELD</p>
 	<p>INFOGRAPHIC OF WOMEN AND WOC IN MATH</p>
 	</div>
-<div class="now">Now What?
+<div class="hidden" id="now_what">Now What?
 	<h1>Now What?</h1>
 	<h4>Education.</h4>
 	<p>EDUCATION IS IMPORTANT. SETS A FOUNDATION FOR WOMEN AT A YOUNG AGE. HELP PROMOTE THE INCORPORATION OF WOMEN IN THESE FIELDS. GET WOMEN EXCITED ABOUT STEM, HELP TEAR DOWN THE STIGMA OF STEM BEING A MAN'S WORLD</p>
