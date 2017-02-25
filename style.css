@@ -22,6 +22,9 @@ p {
 ul {
 	color: white;
 }
+a {
+	color: #ff6600;
+}
 /*dark pink: #e6005c
 green: #00e600;
 teal: #00e6e6 ;
@@ -39,27 +42,47 @@ teal: #00e6e6 ;
 	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
 }
 #info1{
-	width:50;
-	length: 110;
+	width:70%;
+	margin-left: 15%;
 }
 #info2{
-	width:50;
-	length:110;
+	width:70%;
+	margin-left: 15%;
 }
 #science {
 	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
 }
+#science1 {
+	width: 70%;
+	margin-left: 15%;
+}
 #tech {
 	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
+}
+#tech1 {
+	width:80%;
+	margin-left: 10%;
 }
 #eng {
 	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
 }
+#eng1 {
+	width: 70%;
+	margin-left: 15%;
+}
 #math {
 	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
 }
+#math1 {
+	width: 70%;
+	margin-left: 15%;
+}
 #now_what {
 	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
+}
+#edu {
+	width: 70%;
+	margin-left: 15%;
 }
 
 .menu {
