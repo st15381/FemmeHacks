@@ -1,0 +1,62 @@
+<!-- The boring stuff -->
+<!DOCTYPE html>
+<html>
+	<head> <link href="style.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>Femme in Stem</title>
+	<meta name="description" content="DESCRIBE YOUR WEBSITE">
+	<meta name="keywords" content="KEY, WORDS, HERE">
+	</head>
+	<body>
+	<script type="text/javascript">
+		
+	function makeHomeVisible() {
+		document.getElementById("home").className = "visible";
+		document.getElementById("science").className = "hidden";
+		document.getElementById("tech").className = "hidden";
+		document.getElementById("eng").className = "hidden";
+		document.getElementById("math").className = "hidden";
+		document.getElementById("now_what").className = "hidden";
+	}
+	function makeScienceVisible() {
+		document.getElementById("science").className = "visible";
+		document.getElementById("home").className = "hidden";
+		document.getElementById("tech").className = "hidden";
+		document.getElementById("eng").className = "hidden";
+		document.getElementById("math").className = "hidden";
+		document.getElementById("now_what").className = "hidden";
+	}
+	function makeTechVisible() {
+		document.getElementById("tech").className = "visible";
+		document.getElementById("home").className = "hidden";
+		document.getElementById("science").className = "hidden";
+		document.getElementById("eng").className = "hidden";
+		document.getElementById("math").className = "hidden";
+		document.getElementById("now_what").className = "hidden";
+	}
+	function makeEngVisible() {
+		document.getElementById("eng").className = "visible";
+		document.getElementById("home").className = "hidden";
+		document.getElementById("science").className = "hidden";
+		document.getElementById("tech").className = "hidden";
+		document.getElementById("math").className = "hidden";
+		document.getElementById("now_what").className = "hidden";
+	}
+	function makeMathVisible() {
+		document.getElementById("math").className = "visible";
+		
+		document.getElementById("home").className = "hidden";
+		document.getElementById("science").className = "hidden";
+		document.getElementById("tech").className = "hidden";
+		document.getElementById("eng").className = "hidden";
+		document.getElementById("now_what").className = "hidden";
+	}
+	function makeNowVisible() {
+		document.getElementById("now_what").className = "visible";
+		document.getElementById("home").className = "hidden";
+		document.getElementById("science").className = "hidden";
+		document.getElementById("tech").className = "hidden";
+		document.getElementById("eng").className = "hidden";
+		document.getElementById("math").className = "hidden";
+	}
+	</script>
