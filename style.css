@@ -88,6 +88,10 @@ teal: #00e6e6 ;
 	width:80%;
 	margin-left: 10%;
 }
+#techinfograph {
+	width:80%;
+	margin-left: 10%;
+}
 #eng {
 	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
 }
@@ -129,6 +133,10 @@ teal: #00e6e6 ;
 	margin-left: 15%;
 }
 #wecandoit{
+	width: 70%;
+	margin-left: 15%;
+}
+#omg {
 	width: 70%;
 	margin-left: 15%;
 }
