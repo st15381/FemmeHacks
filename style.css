@@ -74,6 +74,10 @@ teal: #00e6e6 ;
 	width: 70%;
 	margin-left: 15%;
 }
+#bargraph{
+	width: 70%;
+	margin-left: 15%;
+}
 #tech {
 	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
 }
@@ -108,6 +112,18 @@ teal: #00e6e6 ;
 }
 #misc {
 	font-family: "Lucida Sans Unicode", "Ludicda Grande", sans-serif;
+}
+#johnnytest{
+	width: 70%;
+	margin-left: 15%;
+}
+#video{
+	width: 70%;
+	margin-left: 15%;
+}
+#gif{
+	width: 70%;
+	margin-left: 15%;
 }
 .menu {
 	list-style: none;
