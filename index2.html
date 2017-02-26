@@ -19,6 +19,7 @@
 		document.getElementById("eng").className = "hidden";
 		document.getElementById("math").className = "hidden";
 		document.getElementById("now_what").className = "hidden";
+		document.getElementById("misc").className = "hidden";
 	}
 	function makeScienceVisible() {
 		document.getElementById("science").className = "visible";
@@ -28,6 +29,7 @@
 		document.getElementById("eng").className = "hidden";
 		document.getElementById("math").className = "hidden";
 		document.getElementById("now_what").className = "hidden";
+		document.getElementById("misc").className = "hidden";
 	}
 	function makeTechVisible() {
 		document.getElementById("tech").className = "visible";
@@ -37,6 +39,7 @@
 		document.getElementById("eng").className = "hidden";
 		document.getElementById("math").className = "hidden";
 		document.getElementById("now_what").className = "hidden";
+		document.getElementById("misc").className = "hidden";
 	}
 	function makeEngVisible() {
 		document.getElementById("eng").className = "visible";
@@ -46,6 +49,7 @@
 		document.getElementById("tech").className = "hidden";
 		document.getElementById("math").className = "hidden";
 		document.getElementById("now_what").className = "hidden";
+		document.getElementById("misc").className = "hidden";
 	}
 	function makeMathVisible() {
 		document.getElementById("math").className = "visible";
@@ -55,6 +59,7 @@
 		document.getElementById("tech").className = "hidden";
 		document.getElementById("eng").className = "hidden";
 		document.getElementById("now_what").className = "hidden";
+		document.getElementById("misc").className = "hidden";
 	}
 	function makeNowVisible() {
 		document.getElementById("now_what").className = "visible";
@@ -64,6 +69,17 @@
 		document.getElementById("tech").className = "hidden";
 		document.getElementById("eng").className = "hidden";
 		document.getElementById("math").className = "hidden";
+		document.getElementById("misc").className = "hidden";
+	}
+	function makeMiscVisible() {
+		document.getElementById("misc").className = "visible";
+
+		document.getElementById("home").className = "hidden";
+		document.getElementById("science").className = "hidden";
+		document.getElementById("tech").className = "hidden";
+		document.getElementById("eng").className = "hidden";
+		document.getElementById("math").className = "hidden";
+		document.getElementById("now_what").className = "hidden";
 	}
 
 
@@ -76,14 +92,14 @@
 	<li><a href="#engineering" onClick= "makeEngVisible()
 	">Engineering</a></li>
 	<li><a href="#mathematics" onClick= "makeMathVisible()">Mathematics</a></li>
-	<li><a href="#now_what" onClick= "makeNowVisible()">Now What?</a></li>
+	<li><a href="#now_what" onClick= "makeNowVisible()">What Now?</a></li>
+	<li><a href="#misc" onClick= "makeMiscVisible()">MISC</a></li>
 </ul>
 
 	<h1>Femme in STEM</h1>
-	<h2 id="subtitle">The Reality of Women in STEM</h2>
-
-<div class="visible" id="home">
 	
+<div class="visible" id="home">
+	<h2 id="subtitle">The Reality of Women in STEM</h2>
 	<h4>What is STEM?</h4>
 	<p>STEM refers to a field of careers involving the use of problem solving and critical/ analytical thinking. This is applied to the areas of science (S), technology (T), engineering (E), and mathematics (M). Essentially, STEM is a web of different fields of careers incorporating these aspects.
 	</p>
@@ -105,7 +121,7 @@
 	<a href="http://lastema.org/wp-content/uploads/2016/02/STEM-jobs.png"></a>
 	<h4>Women of Color in STEM.</h4>
 	<p>Another aspect that is important to keep in mind when thinking of women's involvement in STEM, is women of color and their involvement in STEM. Often minority groups are overlooked when creating programs aimed at integrating women into STEM fields.</p>
-	<img src="WOC.jpg">
+	<img id="WOC" src="WOC.jpg">
 
 </div>
 
@@ -115,20 +131,19 @@
 	<h4>What is science? </h4>
 	<p>Science is the study of the natural world and the living things surrounding us.
 	Scientists observe both the physical and natural aspects of the world by researching, observing, sampling, experimenting, analyzing.
-<h4>Careers.</h4>
-<ul>astronomers: scientists who study the "physics of the sky"</ul> 
-<ul>biochemists: scientsist who study living things and concepts of biology as well as chemical processes and reactions</ul>
-<ul>physicians: (also referred to as human doctors), treat and cure human illnesses and diseases of the body</ul>  
-<ul>veterinarians: physicians that work to treat and cure illnesses in animals</ul>
-<br>
-<img id="science1" src= "http://www.btchflcks.com/wp-content/uploads/2016/07/Johnny-Test_Susan-and-Mary.jpg" >
+	<h4>Careers.</h4>
+	<ul>astronomers: scientists who study the "physics of the sky"</ul> 
+	<ul>biochemists: scientsist who study living things and concepts of biology as well as chemical processes and reactions</ul>
+	<ul>physicians: (also referred to as human doctors), treat and cure human illnesses and diseases of the body</ul>  
+	<ul>veterinarians: physicians that work to treat and cure illnesses in animals</ul>
+	<br>
+	<img id="science1" src= "http://www.btchflcks.com/wp-content/uploads/2016/07/Johnny-Test_Susan-and-Mary.jpg" >
 	<a href="http://www.btchflcks.com/2016/07/mary-and-susan-on-johnny-test.html#.WLH8ijvyvtQ"></a>
 	</div>
 <div class="hidden" id="tech">
 	<h2>Technology.</h2>
 	<h4>What is technology?</h4>
-	<p> Technology uses math, science, and engineering to communicate certain ideas, expressions, messgaes, and details. There are
-many different types of communication that can be learned through education of computer science, a major aspect of technology. In computer science especially, creativity is essential to developing ideas and communticating efficently. By creating, analyzing and replicating code, there is no limit to what we can create. <p>
+	<p> Technology uses math, science, and engineering to communicate certain ideas, expressions, messgaes, and details. There are many different types of communication that can be learned through education of computer science, a major aspect of technology. In computer science especially, creativity is essential to developing ideas and communticating efficently. By creating, analyzing and replicating code, there is no limit to what we can create. <p>
 
 	<h4>Careers.</h4>
 	<ul> web developers: people who create designs and applications for the Internet</ul> 
@@ -178,6 +193,11 @@ many different types of communication that can be learned through education of c
 	<img id= "edu" src="http://4.bp.blogspot.com/-tChEGvkKTF4/Vaw0B9vweTI/AAAAAAAAApI/ZLHh21FPtNY/s1600/pri%2Blaura%2Bgrover%2Bcartoon.jpg">
 	<a href="http://microscopicblog.blogspot.com/2015/07/gendered-stem-stereotypes.html"></a>
 	</div>
+
+<div class="hidden" id="misc">
+	
+
+</div>
 
   	</body>
 </html>
